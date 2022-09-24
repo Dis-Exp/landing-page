@@ -4,16 +4,21 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Software Corp">
     <meta name="description" content="Adopt me ya! Landing Page oficial">
     <meta name="keywords" content="Adoptmeya!, pet, refuge, adopt">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"-->
+<!--        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">-->
+<!--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"-->
+<!--        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"-->
+<!--        crossorigin="anonymous"></script>-->
     <title>Adopt me ya!</title>
     <link rel="shortcut icon" href="favico.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/bbbcecaa30.js" crossorigin="anonymous"></script>
@@ -22,7 +27,7 @@
 
 <body>
 
-    <header id="top">
+<!--    <header>
         <h2><img src="img/LOGO.png" alt="Adopt me ya! logo">Adopt me ya!<a href="#"> </a></h2>
         <nav>
             <li> <a style="text-decoration: none" href="#hero">Home</a></li>
@@ -33,73 +38,124 @@
             <li> <a style="text-decoration: none" href="#pricing">Prices</a></li>
         </nav>
 
+
+
+    </header>-->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="/img/LOGO1.png" alt="" width="30px" height="30px" class="d-inline-block align-text-top">
+                    Adopt me ya!</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"> <a class="nav-link active" style="text-decoration: none" href="#hero">Home</a></li>
+                        <li class="nav-item"> <a class="nav-link active" style="text-decoration: none" href="#whyadopt">Why use Adopt me now !?</a></li>
+                        <li class="nav-item"> <a class="nav-link active" style="text-decoration: none" href="#whoweare">About us?</a> </li>
+                        <li class="nav-item"> <a class="nav-link active" style="text-decoration: none" href="#mission-vision">Mission and vision </a></li>
+                        <li class="nav-item"> <a class="nav-link active" style="text-decoration: none" href="#coverage"> Coverage</a></li>
+                        <li class="nav-item"> <a class="nav-link active" style="text-decoration: none" href="#pricing">Prices</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
+
+
 
 
     <section id=hero class="hero">
 
-        <div class="background-image" style="background-image: url(img/img.jpg)" alt="sad dog"></div>
-        <h1>
+<!--        <div class="background-image" style="background-image: url(img/img.jpg)" alt="sad dog"></div>-->
+<!--        -->
+        <h1 style="max-width: 90%; text-align: center; margin: auto; padding-top: 20px" >
             MORE THAN 1000 PETS ARE WAITING FOR YOU
         </h1>
 
-        <img src="img/AppPlay.png" alt="Play Store and App Store"><a href="#"></a>
+            <div class="row align-items-end justify-content-center" >
 
-        <h2>
-            <a style="text-decoration: none" href="https://osrem-proyect.web.app/">Download now!</a>
-        </h2>
+                <div class="col-5 d-flex flex-column justify-content-center align-items-end " style="height: 50%" >
+                    <button type="button" class="btn appStoreBtn" ></button>
+                    <button type="button" class="btn playStoreBtn" ></button>
+                    <button type="button" class="btn downloadBtn" >Download</button>
+                </div>
+
+            </div>
+
+
     </section>
+
+
 
 
 
     <section id="video" class="video">
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+            <h1>¡Adopting an animal make a great change!</h1>
+            <h2><img src="img/LOGO.png" alt="Adopt me ya! logo"><a href="#"> </a></h2>
+            <div>
 
-        <h4>¡Adopting an animal make a great change!</h4>
-        <h2><img src="img/LOGO.png" alt="Adopt me ya! logo"><a href="#"> </a></h2>
-        <div>
-            
-            <video source src="video/v1.mp4" type="video/mp4" controls height="470px" width="110%">
-            </video>
+                <video source src="video/v1.mp4" type="video/mp4" controls height="470px" width="100%">
+                </video>
+            </div>
         </div>
+
     </section>
 
 
     <section id="whyadopt" class="whyadopt">
-        <h4>Why use Adoptme ya!?</h4>
-        <ul class="grid">
-            <li>
-                <i><img src="img/png2.png" height="190px" alt="Nursing image"></i>
-                <p>You can find good veterinarians <br> near your house</p>
-            </li>
 
-            <li>
-                <i><img src="img/png1.png" height="190px" alt="Image of girl with puppies"></i>
-                <p>You will find your ideal pet because <br>there is much variety</p>
-            </li>
-            <li>
-                <i><img src="img/png.png" height="190px" alt="Battered dog image"></i>
-                <p>You will save animals that do not own <br>and they only have a temporary home</p>
-            </li>
+        <div class="container">
+            <h1>Why use Adoptme ya!?</h1>
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center"><img src="img/png2.png" style="height: 150px!important;" alt="Nursing image"></div>
+                            <p>You can find good veterinarians near your house</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center"><img src="img/png1.png" style="height: 150px!important;"  alt="Image of girl with puppies"></div>
+                            <p>You will find your ideal pet because there is much variety</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center"><img src="img/png.png" style="height: 150px!important;"  alt="Battered dog image"></div>
 
-
-
-        </ul>
+                            <p>You will save animals that do not own and they only have a temporary home</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
-    <section id="video" class="video" style="background-image: url(img/img1.jpg);    width:100%;
-height: 800px;     background-size:cover;">
-        <h4>Who we are?
-            <p align="center" style="font: bold 25px 'Open Sans', sans-serif;">
-                We are EasySoftware Corp, a company made up of a group of engineers <br>Software and Systems
-                worried
-                for the welfare of pets.<br> We use our knowledge to create tools to
-                <br>help
-                to improve the quality of life of all.
-            </p>
-        </h4>
+    <section id="whoWeAre" class="whoWeAre d-flex flex-column align-items-center" style="background-image: url(img/img1.jpg);
+min-height: 800px;     background-size:cover;">
+        <h1 style="margin-top: 30px">Who we are?
+        </h1>
+        <p align="center" style="font: bold 25px 'Open Sans', sans-serif; color: white; max-width: 80%">
+            We are EasySoftware Corp, a company made up of a group of engineers Software and Systems
+            worried
+            for the welfare of pets. We use our knowledge to create tools to
+            help
+            to improve the quality of life of all.
+        </p>
         <div>
-            <img src="img/LOGO.png" alt="Adopt me ya! logo" height="470px" width="110%">
+            <img src="img/LOGO.png" alt="Adopt me ya! logo" max-height="470px" >
            <!-- <video source src="video/v2.mp4" type="video/mp4" controls height="470px" width="110%">
             </video> -->
         </div>
@@ -130,13 +186,16 @@ height: 800px;     background-size:cover;">
 
 
     <section id="coverage" class="coverage">
-        <div class="background-image" style="background-image: url(img/img3.jpg)" alt="Hands holding phone"></div>
-        <h6><a href="#coverage"></a>
-            coverage<br>
+        <div class="d-flex align-items-center background-image" style="background-image: url(img/img3.jpg); background-size: cover; width: 100%!important;" alt="Hands holding phone">
+            <h6 style="margin-left: 15px"><a href="#coverage"></a>
+                Coverage<br>
 
-            <p>Adopt me ya! has a coverage<br>at the national level and<br>the best thing is that it shows<br>
-                you The pets closest to your location </p>
-        </h6>
+                <p>Adopt me ya! has a coverage<br>at the national level and<br>the best thing is that it shows<br>
+                    you The pets closest to your location </p>
+            </h6>
+        </div>
+
+
 
     </section>
 
@@ -149,8 +208,6 @@ height: 800px;     background-size:cover;">
             <p>PRICES</p>
             <div class="container py-5">
                 <!-- END -->
-
-
 
                 <div class="row text-center align-items-end">
                     <!-- Pricing Table-->
@@ -186,7 +243,7 @@ height: 800px;     background-size:cover;">
                                     <del>Unlimited duration of publication</del>
                                 </li>
                             </ul>
-                            <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">see more</a>
+                            <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">See more</a>
                         </div>
                     </div>
                     <!-- END -->
@@ -220,14 +277,14 @@ height: 800px;     background-size:cover;">
                                     <del>Publish advertisements</del>
                                 </li>
                             </ul>
-                            <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">Ver más</a>
+                            <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill">See more</a>
                         </div>
                     </div>
                     <!-- END -->
 
 
                     <!-- Pricing Table-->
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 mb-5 mb-lg-0">
                         <div class="bg-white p-5 rounded-lg shadow">
                             <h1 class="h6 text-uppercase font-weight-bold mb-4">Veterinarians</h1>
                             <h2 class="h2 font-weight-bold">199 S.<span
@@ -258,7 +315,7 @@ height: 800px;     background-size:cover;">
                         </div>
                     </div>
                     <!-- END -->
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 mb-5 mb-lg-0">
                         <div class="bg-white p-5 rounded-lg shadow">
                             <h1 class="h6 text-uppercase font-weight-bold mb-4">Suppliers</h1>
                             <h2 class="h2 font-weight-bold">79 S.<span
@@ -304,6 +361,9 @@ height: 800px;     background-size:cover;">
         <p>All rights reserved.</p>
     </footer>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
 
 
