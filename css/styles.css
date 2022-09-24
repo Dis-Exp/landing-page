@@ -55,11 +55,11 @@ img{max-width: 100% !important;}
 
 }
 .appStoreBtn{
-    background: url("/img/appstore.png") !important;
+    background: url("../img/appstore.png") !important;
     background-size: 100% 100% !important;
 }
 .playStoreBtn{
-    background-image: url("/img/play.png") !important;
+    background-image: url("../img/play.png") !important;
     background-size: 100% 100% !important;
 }
 
