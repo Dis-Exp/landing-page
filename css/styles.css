@@ -162,9 +162,7 @@ h1{
 
 
 .coverage{
-    background-color: hsl(325, 86%, 46%);
-
-justify-content: center;
+    justify-content: center;
 
     color: #fff;
     text-align: center;
@@ -186,15 +184,7 @@ justify-content: center;
     flex-wrap: wrap;
 
 }
-.coverage .background-image:after{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 560px;
 
-}
 .coverage h6 {
     font: bold 41px 'Open Sans', sans-serif;
 
@@ -208,18 +198,6 @@ justify-content: center;
     font: 21px 'Open Sans', sans-serif;
     left:35px;
 
-}
-.coverage p2{
-    font:bold 27px 'Open Sans', sans-serif;
-    left:45px;
-    padding-right: 420px;
-
-}
-.coverage p3{
-    font: 21px 'Open Sans', sans-serif;
-    padding-right: 420px;
-    left:45px;
-    display: flex;
 }
 
 
@@ -253,7 +231,7 @@ footer p {
     margin-bottom: 0px;
 }
 
-ul, nav {
+ul {
     list-style: none;
 
 }
